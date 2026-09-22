@@ -1,0 +1,10 @@
+anthropic
+joblib
+huggingface-hub
+numpy
+pandas
+plotly
+python-dotenv
+requests
+scikit-learn==1.6.1
+streamlit

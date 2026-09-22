@@ -1,1 +1,6 @@
 raw_data/
+.env
+.env.yaml
+.envrc
+.python-version
+trash/
