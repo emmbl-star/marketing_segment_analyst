@@ -28,7 +28,9 @@ A portfolio project: a **Portfolio Allocation Optimizer** for marketing budgets,
 | `docs/FIGMA_MAKE.md` | reference | Figma Make React prototype: stack, build, structure, rules |
 | `docs/DECISIONS.md` | living | Why each non-obvious choice was made; marks which are provisional |
 | `docs/BUG_JOURNAL.md` | living | Every defect with symptom, root cause, fix, prevention |
-| `.claude/skills/bug-journal/` | working | `/bug-journal` skill that updates the journal and reminds to commit on a branch |
+| `.claude/skills/bug-journal/` | working | `/bug-journal`: updates the journal and reminds to push to the current branch (never `main`) |
+| `.claude/skills/design-tokens-sync/` | working | `/design-tokens-sync`: keeps colours identical across the spec, `.streamlit/config.toml` and `optimizer/*.py` |
+| `.claude/skills/spec-sync/` | working | `/spec-sync`: reconciles the spec, `DECISIONS.md` and this file with the code, and logs new decisions |
 | `agents/`, `gcp/`, `utils/` | empty | `__init__.py` only; unused placeholders. Do not fill them without a feature that needs them |
 | `docker/Dockerfile` | empty | Not used by the deploy |
 | `raw_data/` | git-ignored | Local datasets; never commit |
