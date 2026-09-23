@@ -1,10 +1,13 @@
 default: pytest
 
 pytest:
-	echo "no tests"
+	@python -m pytest -q
 
 install_requirements:
 	@pip install -r requirements.txt
+
+install_dev_requirements:
+	@pip install -r requirements-dev.txt
 
 streamlit:
 	-@streamlit run app.py
