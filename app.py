@@ -6,7 +6,7 @@ st.write("Si vous voyez ce message, votre application Streamlit fonctionne parfa
 # Petit test interactif basique
 nom = st.text_input("Comment vous appelez-vous ?")
 if nom:
-    st.success(lettres := f"Bienvenue à bord, {nom} !")
+    st.success(f"Bienvenue à bord, {nom} !")
 
     # Test d'un graphique simple
     import pandas as pd
